@@ -16,9 +16,7 @@ namespace Database
         
         public string Name { get; set; } = string.Empty;
         public string Type { get; set; } = string.Empty;
-
-        public double NominalPowerTre { get; set; } = 0;
-        public double NominalPowerDue { get; set; } = 0;
+        public double NominalPower { get; set; } = 0;
 
 
         public int SubstationId { get; set; }
